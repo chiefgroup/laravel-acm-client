@@ -60,7 +60,9 @@ php artisan vendor:publish --provider="Donjan\AcmClient\Providers\AcmServiceProv
 如果你启用了任务调度，修改`App\Console\Kernel`,添加一个任务
 
 ```
-$schedule->command('acm:get-config')->everyMinute();
+if (config('acm.enable')) {
+    $schedule->command('acm:get-config')->everyMinute();
+}
 ```
 
 或者通过crontab
