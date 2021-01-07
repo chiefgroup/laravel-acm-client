@@ -14,7 +14,7 @@ class GetConfig extends Command
 
     public function handle(Filesystem $filesystem)
     {
-        $client = new AcmClient('acm.aliyun.com', '8080');
+        $client = new AcmClient(config('acm.endpoint'), '8080');
         $client->setAccessKey(config('acm.access_key'));
         $client->setSecretKey(config('acm.secret_key'));
         $client->setNameSpace(config('acm.namespace'));
