@@ -5,7 +5,7 @@
 ## 安装
 
  ```
-  composer require donjan-deng/laravel-acm-client
+  composer require qf/laravel-acm-client
  ```
 该包已实现自动注册service provider，你也可以手动注册，编辑`config/app.php`
 

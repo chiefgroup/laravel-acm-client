@@ -1,18 +1,17 @@
 {
-    "name": "donjan-deng/laravel-acm-client",
+    "name": "qf/laravel-acm-client",
     "description": "laravel aliyun acm client",
     "keywords": [
-        "donjan",
         "laravel",
         "acm client",
         "aliyun acm"
     ],
-    "homepage": "https://github.com/donjan-deng/laravel-acm-client",
+    "homepage": "https://github.com/2512422541/laravel-acm-client",
     "license": "MIT",
     "authors": [
         {
-            "name": "Donjan",
-            "homepage": "https://github.com/donjan-deng",
+            "name": "peng",
+            "homepage": "https://github.com/2512422541",
             "role": "Developer"
         }
     ],
