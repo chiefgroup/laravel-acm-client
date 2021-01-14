@@ -1,12 +1,12 @@
 {
-    "name": "qf/laravel-acm-client",
+    "name": "chiefgroup/laravel-acm-client",
     "description": "laravel aliyun acm client",
     "keywords": [
         "laravel",
         "acm client",
         "aliyun acm"
     ],
-    "homepage": "https://github.com/2512422541/laravel-acm-client",
+    "homepage": "https://github.com/chiefgroup/laravel-acm-client",
     "license": "MIT",
     "authors": [
         {
